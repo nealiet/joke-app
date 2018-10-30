@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmnls:th="http://www.thymeleaf.org">
+<head>
+    <style>
+        .joke-span {
+            display:block;
+            padding:5px;
+        }
+    </style>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+    Chuck Norris's Joke Today is:
+
+    <span class="joke-span" th:text="${joke}">Something went wrong!</span>
+</body>
+</html>
